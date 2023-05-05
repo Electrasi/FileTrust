@@ -1,6 +1,6 @@
 {
   "name": "mycoin",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https:git@github.com:webticket/mycoin.git"
