@@ -1,4 +1,6 @@
 {
+  "name": "mycoin",
+  "version": "1.0.0",
   "dependencies": {
     "axios": "^1.4.0",
     "big-integer": "^1.6.51",
@@ -7,5 +9,8 @@
     "truffle-contract": "^4.0.31",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.2.2"
+  },
+  "devDependencies": {
+    "semantic-release": "^21.0.2"
   }
 }
