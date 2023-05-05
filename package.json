@@ -1,6 +1,10 @@
 {
   "name": "mycoin",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "https:git@github.com:webticket/mycoin.git"
+  },
   "dependencies": {
     "axios": "^1.4.0",
     "big-integer": "^1.6.51",
@@ -12,5 +16,11 @@
   },
   "devDependencies": {
     "semantic-release": "^21.0.2"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
