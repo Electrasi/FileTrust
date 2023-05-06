@@ -15,7 +15,7 @@ async function transfer(event) {
     const nonce = await web3.eth.getTransactionCount(senderAddress);
   
     const url = '../build/contracts/Transfer.json';
-  
+    //fetch the Json file
     try {
       const response = await fetch(url);
       const data = await response.json();
