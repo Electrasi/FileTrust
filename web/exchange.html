@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Transfer Funds</title>
+  </head>
+  <body>
+    <form onsubmit="transfer(event)">
+      <label for="private_key">Private Key</label>
+      <input type="text" id="private_key" name="private_key"><br><br>
+
+      <label for="contract_address">Contract Address:</label>
+      <input type="text" id="contract_address" name="contract_address"><br><br>
+
+      <label for="amount">Amount to Transfer:</label>
+      <input type="text" id="amount" name="amount"><br><br>
+
+      <input type="submit" value="Transfer">
+    </form>
+    <div id="result"></div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="./js/topup.js"></script>
+  </body>
+</html>
