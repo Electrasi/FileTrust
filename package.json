@@ -12,10 +12,15 @@
     "truffle": "^5.8.4",
     "truffle-contract": "^4.0.31",
     "truffle-hdwallet-provider": "^1.0.17",
-    "web3": "^1.2.2"
+    "web3": "^1.9.0"
   },
   "devDependencies": {
-    "semantic-release": "^21.0.2"
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "semantic-release": "^21.0.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
   },
   "scripts": {
     "semantic-release": "semantic-release"
