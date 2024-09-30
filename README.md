@@ -1,24 +1,26 @@
 
 # TrustFile - Blockchain-Based Verifiable Backup System for IoT
 
-**TrustFile** is the native token for the **Blockshare** project, a blockchain-based, verifiable backup system designed for IoT-driven environments. This system leverages decentralized storage and cryptographic mechanisms to provide secure, auditable data backups and access control. TrustFile tokens incentivize node participation and facilitate secure interactions among stakeholders.
+**TrustFile** is a token designed for the **Blockshare** project, which provides a decentralized, blockchain-based verifiable backup system tailored for IoT-driven environments. This project leverages blockchain technology, cryptographic techniques, and decentralized storage to ensure secure and auditable data management for IoT devices, especially in scenarios where stakeholders cannot fully trust each other or centralized systems.
 
 ## Key Features
-- **Decentralized Storage Incentive**: TrustFile tokens incentivize IPFS nodes to hold and maintain data integrity by storing encrypted pieces of IoT data.
-- **Blockchain Integration**: Ensures transparency, immutability, and auditability for IoT data transactions.
-- **Incentivized Stakeholder Participation**: Shareholders use TrustFile tokens to pay for critical operations such as Multi-Party Computation (MPC), Proxy Re-Encryption (PRE), and data requests.
-- **Secure Data Sharing**: Through blockchain and decentralized systems, IoT data is protected and shared securely, even in environments with mutual distrust.
+- **Blockchain Integration**: Ensures transparency, immutability, and auditability.
+- **Decentralized Storage**: Uses IPFS to store encrypted IoT data efficiently.
+- **Multi-Party Computation (MPC)**: Collaborative encryption key generation.
+- **Verifiable Secret Sharing (VSS)**: Secure and trustable key distribution among stakeholders.
+- **Proxy Re-Encryption (PRE)**: Enables authorized access without compromising data security.
+- **Token Integration (TrustFile)**: Supports the project's operations by facilitating secure access to stored IoT data and interactions between stakeholders.
 
 ## Project Structure
-- **IPFS Storage**: Data is split and stored across IPFS nodes, with TrustFile tokens used as an incentive for nodes that host data pieces.
-- **Smart Contracts**: Governs MPC, VSS, and PRE to ensure secure and efficient management of IoT data access and encryption.
-- **Token (TrustFile)**: The TrustFile token is central to all operations, facilitating payments between shareholders and nodes for processing and storage.
+- **Smart Contracts**: Implements MPC, VSS, and PRE to manage secure access to IoT data.
+- **IPFS Storage**: Decentralized file storage for IoT data using Content Identifiers (CIDs).
+- **Token (TrustFile)**: An Ethereum-based token that facilitates interactions within the Blockshare framework.
 
 ## How It Works
-1. **Data Distribution**: IoT data is split using the Information Dispersal Algorithm (IDA) and stored across IPFS. IPFS nodes are incentivized to store these data pieces by earning TrustFile tokens.
-2. **Key Generation and Management**: Using MPC, stakeholders collaboratively generate and distribute encryption keys, with TrustFile tokens paying for this process.
-3. **Access Control**: TrustFile tokens are used to manage permissions and access to data. Stakeholders use tokens to request data access or Proxy Re-Encryption (PRE) services.
-4. **Node Incentives**: IPFS nodes earn TrustFile tokens for storing and serving data pieces, ensuring decentralized and reliable storage for IoT data.
+1. **Data Distribution**: IoT data is split into pieces and stored in the IPFS network. Only the encrypted Content Identifiers (CIDs) are stored on the blockchain.
+2. **Key Generation**: Using Multi-Party Computation (MPC), stakeholders collaboratively generate encryption keys without relying on a central entity.
+3. **Access Control**: TrustFile tokens manage access rights to the data. Only authorized token holders can initiate the process of retrieving or re-encrypting the IoT data.
+4. **Data Access**: Proxy Re-Encryption (PRE) ensures that authorized users can access encrypted IoT data securely, without exposing the underlying encryption keys.
 
 ## Token Details
 - **Token Name**: TrustFile
@@ -27,34 +29,31 @@
 - **Decimals**: 18
 - **Network**: Ethereum
 
-### Token Use Cases
-- **Incentivizing IPFS Nodes**: TrustFile tokens are distributed to IPFS nodes that store and maintain IoT data pieces.
-- **Payments for Computation**: Stakeholders use TrustFile tokens to pay for performing MPC, Proxy Re-Encryption (PRE), and data retrieval.
-- **Data Requests**: Users pay with TrustFile tokens to access and retrieve specific IoT data through the system.
-
 ## Installation
 
 1. Clone this repository:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/yourusername/TrustFile.git
-   ```
+   \`\`\`
 
 2. Install dependencies:
-   ```bash
+   \`\`\`bash
    npm install
-   ```
+   \`\`\`
 
 3. Compile smart contracts:
-   ```bash
+   \`\`\`bash
    npx hardhat compile
-   ```
+   \`\`\`
 
 4. Deploy contracts to the blockchain:
-   ```bash
+   \`\`\`bash
    npx hardhat run scripts/deploy.js --network <network>
-   ```
+   \`\`\`
 
 ## Usage
+- To interact with the smart contracts and initiate IoT data sharing, use the **TrustFile** token to verify access and control data permissions.
+- Use the provided scripts to interact with the blockchain for key generation, data storage, and access control.
 - Use **TrustFile** tokens to incentivize IPFS nodes for storing IoT data.
 - Stakeholders use **TrustFile** to pay for secure operations such as MPC and PRE, ensuring a decentralized and transparent data-sharing environment.
 
