@@ -33,7 +33,7 @@
 
 1. Clone this repository:
    \`\`\`bash
-   git clone https://github.com/yourusername/TrustFile.git
+   git clone https://github.com/Electrasi/TrustFile.git
    \`\`\`
 
 2. Install dependencies:
