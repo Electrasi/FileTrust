@@ -1,2 +1,2 @@
 # mycoin
-Blockshare
+TrustFile
