@@ -1,7 +1,7 @@
 
-# TrustFile - Blockchain-Based Verifiable Backup System for IoT
+# FileTrust - Blockchain-Based Verifiable Backup System for IoT
 
-**TrustFile** is a token designed for the **Blockshare** project, which provides a decentralized, blockchain-based verifiable backup system tailored for IoT-driven environments. This project leverages blockchain technology, cryptographic techniques, and decentralized storage to ensure secure and auditable data management for IoT devices, especially in scenarios where stakeholders cannot fully trust each other or centralized systems.
+**FileTrust** is a token designed for the **Blockshare** project, which provides a decentralized, blockchain-based verifiable backup system tailored for IoT-driven environments. This project leverages blockchain technology, cryptographic techniques, and decentralized storage to ensure secure and auditable data management for IoT devices, especially in scenarios where stakeholders cannot fully trust each other or centralized systems.
 
 ## Key Features
 - **Blockchain Integration**: Ensures transparency, immutability, and auditability.
@@ -33,7 +33,7 @@
 
 1. Clone this repository:
    \`\`\`bash
-   git clone https://github.com/yourusername/TrustFile.git
+   git clone https://github.com/yourusername/FileTrust.git
    \`\`\`
 
 2. Install dependencies:
@@ -52,10 +52,10 @@
    \`\`\`
 
 ## Usage
-- To interact with the smart contracts and initiate IoT data sharing, use the **TrustFile** token to verify access and control data permissions.
+- To interact with the smart contracts and initiate IoT data sharing, use the **FileTrust** token to verify access and control data permissions.
 - Use the provided scripts to interact with the blockchain for key generation, data storage, and access control.
-- Use **TrustFile** tokens to incentivize IPFS nodes for storing IoT data.
-- Stakeholders use **TrustFile** to pay for secure operations such as MPC and PRE, ensuring a decentralized and transparent data-sharing environment.
+- Use **FileTrust** tokens to incentivize IPFS nodes for storing IoT data.
+- Stakeholders use **FileTrust** to pay for secure operations such as MPC and PRE, ensuring a decentralized and transparent data-sharing environment.
 
 ## Contribution
 Contributions are welcome! Feel free to submit pull requests or open issues for improvements.
